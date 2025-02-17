@@ -5,11 +5,11 @@ const Navbar = (()=>{
 
     return(
         <div>
-            <nav>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
 
-                <Link to='/'>Főoldal</Link>
-                <NavLink to='/ermesek'>Az olimpia érmesei</NavLink>
-                <NavLink to='/mermesek'>A magyar érmesek</NavLink>
+                <Link className="navbar-brand" to='/'>Főoldal</Link>
+                <NavLink className="navbar-brand" to='/ermesek'>Az olimpia érmesei</NavLink>
+                <NavLink className="navbar-brand" to='/mermesek'>A magyar érmesek</NavLink>
 
             </nav>
         </div>
